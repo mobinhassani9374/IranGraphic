@@ -1,13 +1,31 @@
-﻿@using SeratGraphic.Identity
-
 <!DOCTYPE html>
+<!-- saved from url=(0036)http://demo.gostarandev.com/Origine/ -->
+<html dir="rtl" lang="fa-IR"
+	class="yes-js js_active js wf-rubik-n3-active wf-rubik-n4-active wf-rubik-n5-active wf-rubik-n7-active wf-rubik-n9-active wf-rubik-i3-active wf-rubik-i4-active wf-rubik-i5-active wf-rubik-i7-active wf-rubik-i9-active wf-active js csstransforms csstransforms3d csstransitions js_active  vc_desktop  vc_transform  vc_transform">
 
-<html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="~/build/css/stylesheet.css" />
-    <style id="origine-custom-inline-css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="./files/js/webfont.js" type="text/javascript" async=""></script>
+	<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+	<title>قالب فروشگاهی اورجین</title>
+	<link rel="stylesheet" id="wp-block-library-rtl-css" href="./files/css/style-rtl.min.css" type="text/css">
+	<link rel="stylesheet" id="wc-block-style-css" href="./files/css/style.css" type="text/css">
+	<link rel="stylesheet" id="jquery-selectBox-css" href="./files/css/jquery.selectBox.css" type="text/css">
+	<link rel="stylesheet" id="yith-wcwl-font-awesome-css" href="./files/css/font-awesome.min.css" type="text/css">
+
+	<link rel="stylesheet" id="origine-fonts-css" href="./files/css/css" type="text/css">
+	<link rel="stylesheet" id="origine-style-css" href="./files/css/style(2).css" type="text/css">
+	<link rel="stylesheet" id="megamenu-css" href="./files/css/megamenu_style.css" type="text/css">
+	<link rel="stylesheet" id="plaza-icon-css" href="./files/css/plaza-font.css" type="text/css">
+	<link rel="stylesheet" id="fontawesome-css" href="./files/css/font-awesome.min(2).css" type="text/css">
+	<link rel="stylesheet" id="ionicons-css" href="./files/css/ionicons.min.css" type="text/css">
+	<link rel="stylesheet" id="bootstrap-css" href="./files/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" id="origine-theme-css" href="./files/css/theme1.css" type="text/css">
+	<link rel="stylesheet" id="origine-custom-css" href="./files/css/opt_css.css" type="text/css">
+
+	<link rel="stylesheet" id="origine-custom-css" href="./files/css/override.css" type="text/css">
+	<style id="origine-custom-inline-css" type="text/css">
 		.vc_custom_1548314967493 {
 			padding-top: 30px !important;
 			padding-bottom: 30px !important;
@@ -18,10 +36,22 @@
 			margin-bottom: 0px !important;
 		}
 	</style>
-</head>
-<body>
+	<link rel="stylesheet" id="mm_icomoon-css" href="./files/css/icomoon.css" type="text/css">
+	<link rel="stylesheet" id="mmm_mega_main_menu-css" href="./files/css/cache.skin.css" type="text/css">
+	<link rel="stylesheet" id="js_composer_front-css" href="./files/css/js_composer.min.css" type="text/css">
 
-    <div id="yith-wcwl-popup-message" style="display: none;">
+	<link rel="stylesheet" href="./files/css/rtl.css" type="text/css" media="screen">
+	<link rel="alternate" type="application/json+oembed"
+		href="http://demo.gostarandev.com/Origine/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.gostarandev.com%2FOrigine%2F">
+	<link rel="alternate" type="text/xml+oembed"
+		href="http://demo.gostarandev.com/Origine/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fdemo.gostarandev.com%2FOrigine%2F&amp;format=xml">
+
+</head>
+
+<body
+	class="rtl home page-template page-template-page-templates page-template-front-page page-template-page-templatesfront-page-php page page-id-948 theme-origine mmm mega_main_menu-2-1-7 woocommerce-js wpb-js-composer js-comp-ver-5.7 vc_responsive">
+
+	<div id="yith-wcwl-popup-message" style="display: none;">
 		<div id="yith-wcwl-message"></div>
 	</div>
 	<div class="wrapper">
@@ -2897,32 +2927,33 @@
 		</div><!-- .page -->
 	</div><!-- .wrapper -->
 	<div id="back-top" class=""></div>
-    <div>
-        @if (User.Identity.IsAuthenticated)
-        {
-            <p>
-                خوش آمدید @User.GetFullName()
-                <span>
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <label>(مدیرسایت)</label>
-                    }
-                    @if (User.IsInRole("User"))
-                    {
-                        <label>(کاربرعادی)</label>
-                    }
-                </span>
-            </p>
-            <p><a href="/logout">logout</a></p>
-        }
-        else
-        {
-            <p><a href="/register">register</a></p>
-            <p><a href="/login">login</a></p>
-        }
-        <hr />
-        @RenderBody()
-    </div>
-    <script src="~/build/js/bundle.js"></script>
+
+	<script type="text/javascript" src="./files/js/jquery.js"></script>
+	<script type="text/javascript" src="./files/js/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.blockUI.min.js"></script>
+
+	<script type="text/javascript" src="./files/js/scripts.js"></script>
+	<script type="text/javascript" src="./files/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./files/js/owl.carousel.js"></script>
+	<script type="text/javascript" src="./files/js/chosen.jquery.min.js"></script>
+	<script type="text/javascript" src="./files/js/chosen.proto.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.fancybox-buttons.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.fancybox-media.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.fancybox-thumbs.js"></script>
+	<script type="text/javascript" src="./files/js/superfish.min.js"></script>
+	<script type="text/javascript" src="./files/js/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.shuffle.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="./files/js/waypoints.min.js"></script>
+	<script type="text/javascript" src="./files/js/jquery.counterup.min.js"></script>
+	<script type="text/javascript" src="./files/js/variables.js"></script>
+	<script type="text/javascript" src="./files/js/theme-origine.js"></script>
+
+	<script type="text/javascript" src="./files/js/script.js"></script>
 </body>
+
 </html>
