@@ -1,0 +1,19 @@
+﻿@using SeratGraphic.Models.Account
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Register</h2>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="All"></div>
+    <p>FullName : <input type="text" asp-for="FullName" /></p>
+    <p> PhoneNumber : <input type="number" asp-for="PhoneNumber" /></p>
+    <p> Password : <input type="password" asp-for="Password" /></p>
+    <p>ConfirmPassword : <input type="password" asp-for="ConfirmPassword" /></p>
+    <p><input type="submit" value="Register" /></p>
+</form>
+

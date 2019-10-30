@@ -1,0 +1,20 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=.;Initial Catalog=SeratGraphic;Integrated Security=True"
+  },
+  "ExpiresDayLogin": "30",
+  "BitPayConfig": {
+    "Api": "4addd-025b1-d0c85-bbf1c-08d3cba119c58e24b6c3e87f1c54",
+    "BaseAddress": "http://bitpay.ir/",
+    "RedirectUrl": "http://ferdows110.ir//Payment/BitPayResponse",
+    "DisplayName": "اکانت گیم",
+    "Email": "http://seratvector.ir",
+    "GatewayUrl": "payment/gateway-send",
+    "CheckoutUrl": "payment/gateway-result-second"
+  },
+  "AccountPayPercent": 15,
+  "WhiteSMSConfig": {
+    "UserApiKey": "b72a5cc173a833a55330709a",
+    "SecretKey": "C%56@G)1)$^*#Wu"
+  }
+}

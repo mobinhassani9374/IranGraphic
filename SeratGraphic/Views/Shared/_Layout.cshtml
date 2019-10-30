@@ -1,0 +1,38 @@
+﻿@using SeratGraphic.Identity
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <p>
+                خوش آمدید @User.GetFullName()
+                <span>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <label>(مدیرسایت)</label>
+                    }
+                    @if (User.IsInRole("User"))
+                    {
+                        <label>(کاربرعادی)</label>
+                    }
+                </span>
+            </p>
+            <p><a href="/logout">logout</a></p>
+        }
+        else
+        {
+            <p><a href="/register">register</a></p>
+            <p><a href="/login">login</a></p>
+        }
+        <hr />
+        @RenderBody()
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿@using SeratGraphic.Models.Account
+@model VerificationModel
+@{
+    ViewData["Title"] = "Verify";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Verify</h2>
+
+<form method="post">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="All"></div>
+    <input type="hidden" name="PhoneNumber" value="@ViewBag.PhoneNumber" />
+    <p> Code : <input type="number" asp-for="Code" /></p>
+    <p><input type="submit" value="Verify" /></p>
+</form>
+
