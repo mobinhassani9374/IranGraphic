@@ -2,8 +2,8 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 
 gulp.task('pack-js', function () {
-    return gulp.src(['./files/js/jquery.js',
-        './files/js/jquery-migrate.min.js',
+    return gulp.src(['./files/js/jquery-3.4.1.js',
+        './files/js/jquery-migrate-3.1.0.min.js',
         './files/js/jquery.themepunch.tools.min.js',
         './files/js/jquery.themepunch.revolution.min.js',
         './files/js/jquery.blockUI.min.js',
