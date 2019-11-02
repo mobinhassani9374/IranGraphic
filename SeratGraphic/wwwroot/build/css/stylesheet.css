@@ -4575,7 +4575,25 @@ body.wp-admin
 }
 /* END */
 
+.vc_custom_1548314967493 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    background-color: #0e7346 !important;
+}
 
+.vc_custom_1547998425159 {
+    margin-bottom: 0px !important;
+}
+
+.header-container.rs-active.header-1 {
+    margin-bottom:0px !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
