@@ -20,10 +20,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 .error ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0px;
 }
 .error ul li {
-    color: #ff000096;
-    padding: 10px;
+    color: #bc272796;
+    margin: 0px !important;
+}
+
+.margin-0 {
+    margin: 0px;
 }
