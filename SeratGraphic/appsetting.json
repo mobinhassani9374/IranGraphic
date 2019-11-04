@@ -1,6 +1,6 @@
 ﻿{
   "ConnectionStrings": {
-    "DefaultConnection": "Data Source=185.51.200.186\\SQL2014,2014;Initial Catalog=IranGraphic;Persist Security Info=True;User ID=iranGraphic_mobin; Password=7M?vr85g; MultipleActiveResultSets=True"
+    "DefaultConnection": ""
   },
   "ExpiresDayLogin": "30",
   "BitPayConfig": {
