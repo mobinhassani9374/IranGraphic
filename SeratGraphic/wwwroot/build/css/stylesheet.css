@@ -4608,6 +4608,51 @@ input[type=number]::-webkit-outer-spin-button {
 .margin-0 {
     margin: 0px;
 }
+
+.admin {
+    overflow: hidden;
+    padding: 0 0 30px;
+}
+
+.admin .admin__item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: 3px solid #138552;
+    margin: 10px 0;
+}
+
+.admin .admin__item .admin__item__header {
+    padding: 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+.admin .admin__item .admin__item__link {
+    display: block;
+    color: #444;
+    font-weight: 500;
+    font-size: 11px;
+    border-bottom: 1px dotted #ccc;
+    margin: 0px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.admin .admin__item .admin__item__header .admin__item__header__icon {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.admin .admin__item .admin__item__header .admin__item__header__title {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.admin .admin__item .admin__item__link:hover {
+    color: #14b806;
+    background-color: #f9f9f9;
+}
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
