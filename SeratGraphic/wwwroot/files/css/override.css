@@ -76,3 +76,7 @@ input[type=number]::-webkit-outer-spin-button {
     color: #14b806;
     background-color: #f9f9f9;
 }
+
+.header-container .topbar .topbar-left .widget_nav_menu .widgettitle::after {
+    content: '';
+}
